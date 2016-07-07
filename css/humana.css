@@ -1,0 +1,101 @@
+/*!
+web version styles
+*/
+
+    @font-face {
+        font-family: 'FS Me Web Regular';
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.eot);
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.eot?ie) format('embedded-opentype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.woff2) format('woff2'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.woff) format('woff'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.ttf) format('truetype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.svg#FSMeWebRegular) format('svg');
+        font-weight: 400;
+        font-style: normal
+    }
+    @font-face {
+        font-family: 'FS Me Web Bold';
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-bold-fd-1602.eot);
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-bold-fd-1602.eot?ie) format('embedded-opentype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-bold-fd-1602.woff2) format('woff2'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-bold-fd-1602.woff) format('woff'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-bold-fd-1602.ttf) format('truetype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-bold-fd-1602.svg#FSMeWebBold) format('svg');
+        font-style: normal
+    }
+    @font-face {
+        font-family: 'FS Me Web Italic';
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.eot);
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.eot?ie) format('embedded-opentype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.woff2) format('woff2'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.woff) format('woff'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.ttf) format('truetype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-regular-fd-1602.svg#FSMeWebItalic) format('svg');
+        font-weight: 400;
+        font-style: italic
+    }
+    @font-face {
+        font-family: 'FS Me Web Light';
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-light-fd-1602.eot);
+        src: url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-light-fd-1602.eot?ie) format('embedded-opentype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-light-fd-1602.woff2) format('woff2'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-light-fd-1602.woff) format('woff'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-light-fd-1602.ttf) format('truetype'), url(https://www.humanadigitalstyleguide.com/Areas/Global/Content/fonts/fsmeweb-light-fd-1602.svg#FSMeWebLight) format('svg');
+        font-weight: 200;
+        font-style: normal
+    }
+body {
+    color: #484641;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 24px
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+h1,
+.h1,
+h2,
+.h2 {
+    font-family: "FS Me Web Light", Arial, Helvetica, Verdana, sans-serif
+}
+h3,
+.h3,
+h4,
+.h4 {
+    font-family: "FS Me Web Regular", Arial, Helvetica, Verdana, sans-serif
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    color: #5c9a1b
+}
+h1 .alt,
+.h1 .alt,
+h2 .alt,
+.h2 .alt,
+h3 .alt,
+.h3 .alt {
+    color: #1d5b2d;
+    display: block
+}
+h1,
+.h1 {
+    font-size: 44px;
+    line-height: 52px
+}
+h2,
+.h2 {
+    font-size: 34px;
+    line-height: 40px
+}
+h3,
+.h3 {
+    font-size: 26px;
+    line-height: 32px
+}
+h4,
+.h4 {
+    color: #1d5b2d;
+    font-size: 20px;
+    line-height: 24px
+}
